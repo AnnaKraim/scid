@@ -1,0 +1,103 @@
+.text500 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text600 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.text400 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thin {
+    line-height: 0.8rem;
+    font-size: 0.6rem;
+}
+
+.small {
+    line-height: 1rem;
+    font-size: 0.7rem;
+}
+
+.regular {
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+}
+
+.large {
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+}
+
+.display {
+    line-height: 4.2rem;
+    font-size: 3.6rem;
+}
+
+.heading1 {
+    line-height: 2.8rem;
+    font-size: 2.4rem;
+}
+
+.heading2 {
+    line-height: 2.5rem;
+    font-size: 1.9rem;
+}
+
+.heading3 {
+    line-height: 2rem;
+    font-size: 1.6rem;
+}
+
+.heading4 {
+    line-height: 100%;
+    font-size: 1.2rem;
+}
+
+.heading5 {
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+
+.logosymbol {
+    line-height: 2.8rem;
+    font-size: 1.2rem;
+}
+
+.text-gray900 {
+    color: #132238;
+}
+
+.text-gray800 {
+    color: #132238;
+}
+
+.text-gray600 {
+    color: #556070;
+}
+
+.text-gray400 {
+    color: #87909D;
+}
+
+.text-gray300 {
+    color: #A5ACB5;
+}
+
+.text-gray1 {
+    color: #333333;
+}
+
+.text-white {
+    color: white;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="style/main.css" rel="stylesheet">
+    <link href="style/components.css" rel="stylesheet">
+    <link href="style/adaptive.css" rel="stylesheet">
+    <link href="style/text.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <div class="logo">
+                <div class="logo__name text-white">
+                    <label class="heading3 text600">SCID</label>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="filter">
+                <input type="text" id="name" placeholder="Name" class="large text400">
+                <input type="text" id="surname" placeholder="Surname" class="large text400">
+                <input type="text" id="email" placeholder="Email" class="large text400">
+                <label class="large text400">Age</label>
+                <input type="text" id="from" placeholder="From" class="large text400">
+                <input type="text" id="to" placeholder="To" class="large text400">
+            </div>
+            <div class="users">
+            </div>
+        </main>
+        <footer>
+            <div class="logo">
+                <div class="logo__name text-white">
+                    <label class="heading3 text600">SCID</label>
+                </div>
+            </div>
+            <div class="footer__text text-white">
+                <label class="regular text400">Copyright © 2024 AnnaKraim</label>
+            </div>
+        </footer>
+    </div>
+    <template id="user-card-template">
+        <div class="user">
+            <div class="user__img"></div>
+            <div class="user__content">
+                <div class="user__name">
+                    <label class="large text400"></label>
+                </div>
+                <div class="user__age">
+                    <label class="small text500"></label>
+                </div>
+                <div class="user__email">
+                    <label class="small text500"></label>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script type="module" src="/index.js" defer></script>
+</body>
+
+</html>
