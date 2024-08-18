@@ -31,7 +31,29 @@
                 <input type="text" id="email" placeholder="Email" class="large text400">
                 <label class="large text400">Age</label>
                 <input type="text" id="from" placeholder="From" class="large text400">
-                <input type="text" id="to" placeholder="To" class="large text400">
+                <input type="text" id="to" placeholder="To" class="large text400 mb1_6">
+                <label class="large text400">Select the sorting method</label>
+                <input class="large text400 " placeholder="Sorted by" type="text" name="sortName" autocomplete="off">
+                <ul class="dropdown-list">
+                    <li data-value="Name" class="dropdown-item">
+                        <div class="item-title text600">Name</div>
+                    </li>
+                    <li data-value="Surname" class="dropdown-item">
+                        <div class="item-title text600">Surname</div>
+                    </li>
+                    <li data-value="Age" class="dropdown-item">
+                        <div class="item-title text600">Age</div>
+                    </li>
+                </ul>
+                <input class="large text400 not-display" placeholder="Sorted order" type="text" name="sortOrder" autocomplete="off">
+                <ul class="dropdown-list">
+                    <li data-value="Ascending" class="dropdown-item">
+                        <div class="item-title text600">Ascending</div>
+                    </li>
+                    <li data-value="Descending" class="dropdown-item">
+                        <div class="item-title text600">Descending</div>
+                    </li>
+                </ul>
             </div>
             <div class="users">
             </div>
